@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <title>Название вкладки</title>
+</head>
+<body>
+    <h1>Найдено со скиллом {{skill_name}}: {{candidates_count}}:</h1>
+    {% for candidate in candidates %}
+        <p><a href="/candidate/{{candidate.id}}">{{candidate.name}}</a></p>
+    {% endfor %}
+</body>
+</html>

@@ -79,3 +79,5 @@ def search_candidate_by_skill(skill_name):
             candidates_match.append(candidate)
 
     return candidates_match[:limit]
+
+
